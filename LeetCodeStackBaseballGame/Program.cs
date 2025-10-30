@@ -3,6 +3,10 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        Stack<int> s1 = new Stack<int>();
+        s1.Push(10);
+        s1.Push(20);
+        Console.WriteLine(s1.Count);
     }
     public int CalPoints(string[] operations)
     {
@@ -13,12 +17,15 @@
         {
             switch (operations[i])
             {
-                case '+':
+                case "+":
                     if (array.Length > 0)
                     {
 
                     }
+                    break;
             }
         }
+
+        return 0;
     }
 }
